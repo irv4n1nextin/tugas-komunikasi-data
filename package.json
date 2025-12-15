@@ -1,0 +1,29 @@
+{
+  "name": "network-monitor",
+  "version": "1.0.0",
+  "description": "Web Monitoring Real-time untuk Analisa Perangkat Jaringan - Tugas Komunikasi Data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "network-monitoring",
+    "icmp",
+    "snmp",
+    "real-time",
+    "websocket",
+    "express"
+  ],
+  "author": "Nadwa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "ping": "^0.4.4",
+    "moment-timezone": "^0.5.43"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
